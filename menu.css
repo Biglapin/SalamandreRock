@@ -1,0 +1,61 @@
+/* NAVBAR */
+
+.navbar{
+    font-family: 'Amatic SC', cursive;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #faf5f4;
+    font-size: larger;
+}
+.bg-custom-nav{
+    background-color:black;
+   
+}
+
+/* BODY  */
+body{
+    background-image: url("img/background-forest.jpg");
+    height: 100%;
+    width: 100%;
+    
+}
+
+/* CAROUSEL PAGE LUMIERE */
+.carousel-inner {
+    height:50em;
+    margin-top: 2em;
+  }
+
+/* LES CARDS PAGE NOTRE UNIVERS */
+
+
+.col-lg-cards{
+    margin-top: 1em;
+    width: 100%;
+}
+
+.card{
+    display: flex;
+    width: auto;
+    height: auto;
+    border: 1;
+    padding: 0;
+   
+}
+
+.row{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }

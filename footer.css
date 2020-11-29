@@ -1,0 +1,12 @@
+footer{ 
+    height:2em;
+    background-color: black;
+    margin: -6px;
+    padding: 1px;
+    font-family: 'Amatic SC', cursive;
+}
+p{
+    color:white;
+    text-align: end;
+    
+}
