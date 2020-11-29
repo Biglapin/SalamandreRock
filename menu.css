@@ -22,19 +22,29 @@ body{
 }
 
 /* CAROUSEL PAGE LUMIERE */
+
+.carousel-item {
+    height: 100%;
+}
 .carousel-inner {
-    height:50em;
-    margin-top: 2em;
-  }
+    height: 100%;
 
+}
+.divCarousel {
+            height: 100%;
+            padding: 0px;
+            margin-top: 1em;
+            margin-bottom: 1em;
+}
+.carousel-item img {
+    height: 100%;
+}       
 /* LES CARDS PAGE NOTRE UNIVERS */
-
 
 .col-lg-cards{
     margin-top: 1em;
     width: 100%;
 }
-
 .card{
     display: flex;
     width: auto;
@@ -43,13 +53,13 @@ body{
     padding: 0;
    
 }
-
 .row{
     width: auto;
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
+
 
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
