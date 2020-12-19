@@ -1,0 +1,103 @@
+/* NAVBAR */
+
+.navbar{
+    font-family: 'Amatic SC', cursive;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #faf5f4;
+    font-size: larger;
+}
+.bg-custom-nav{
+    background-color:black;
+   
+}
+
+/* BODY  */
+body {
+        background-color: black;
+        height: 100%;
+        width: 100%;
+}
+
+/* CAROUSEL PAGE LUMIERE */
+
+.carousel-item {
+    height: 100%;
+}
+.carousel-inner {
+    height: 100%;
+
+}
+.divCarousel {
+            height: 100%;
+            padding: 0px;
+            margin-top: 1em;
+            margin-bottom: 1em;
+}
+.carousel-item img {
+    height: 100%;
+}       
+/* LES CARDS PAGE NOTRE UNIVERS */
+
+
+
+
+/* Style the video: */
+
+section {
+    position: relative;
+    background-color: black;
+    height: 89vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  section video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  section .container {
+    position: relative;
+    z-index: 2;
+  }
+  section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+
+  /* FOOTER */
+
+  .footer-index{
+    height:2.3rem;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic SC', cursive;
+  }
+.logo-footer{
+    color:#ffff;
+    text-align: end;
+    padding-top: 0.3rem;
+}
+
+.logo-footer img {
+    margin-right: 0.5rem;
+}
