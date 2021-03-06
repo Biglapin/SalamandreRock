@@ -24,9 +24,12 @@ hr {
   margin-top: 1px;
   margin-bottom: 1px;
 }
+
+
+/*-------- TOP SECTION --------*/
 .row-title-top {
   align-items: center;
-  height: 30vh;
+  height: 52vh;
   justify-content: center;
   background-color: rgba(16 16 16 / 88%);
   display: flex;
@@ -41,12 +44,16 @@ hr {
   justify-content: center;
 }
 .col-left-album img {
-  width: 685px;
-  height: 400px;
+  width: 618px;
+  height: 455px;
   border-radius: 3px;
   border: 1px solid #e3a73f;
 }
-
+.text-univers {
+  padding-left: 20%;
+  padding-right: 20%;
+  font-style: "Open-sans";
+}
 .date {
   margin-bottom: 7vh;
   font-size: 22px;
@@ -76,10 +83,12 @@ hr {
 .Accordion__tab__headline:hover {
   background-color: #607bba;
 }
+
 .Accordion__tab__headline > h4 {
   user-select: none;
   text-transform: uppercase;
   margin: 0;
+  color: #e3a73f;
 }
 .Accordion__tab__headline .icon {
   display: inline-block;
