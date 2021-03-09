@@ -1,0 +1,135 @@
+html{
+    background:#000;
+}
+.space{
+    height: 15vh;
+}
+.white{
+   color:#fff
+}
+.black{
+    background: none;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+footer{
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    background: #000;
+    height: 15vh;
+    width: 100vw;
+}
+
+section{
+    margin: 0;
+    padding: 0;
+    border: none;
+    height:100vh;
+}
+.container{
+    background: grey;
+    height: 50vh;
+    width: 100vw;
+}
+.container2{
+    background: lightgray;
+}
+.container3{
+    background: pink;
+    height: 100vh;
+    width: 100vw;
+
+}
+.container4{
+    display: inline-block;
+}
+.container5{
+    background: yellow;
+    height: 100vh;
+    width: 100vw;
+}
+.container6{
+    background: lavender;
+    height: 5vh;
+}
+.container7{
+    background: cadetblue;
+    height: 50vh;
+}
+iframe{
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 760px){ 
+    footer{position: fixed !important;
+    width: 100vw !important;
+}
+}
+.nav-link:hover{
+    color: #F2CD5D !important;
+    background: black !important;
+    border-bottom: #F2CD5D 1px solid;
+    border-top: #F2CD5D 1px solid;
+    border-radius: 0 !important;
+}
+.nav-link.active{
+    color: #F2CD5D !important;
+    background: black !important;
+    border-bottom: #F2CD5D 1px solid;
+    border-top: #F2CD5D 1px solid;
+    border-radius: 0 !important;
+}
+.link:hover{
+    color: #fff;
+}
+video{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+#about {
+    background: #000;
+    margin: 0;
+    padding: 0;
+}
+#index {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+#btn-bienvenue{
+    border: #000;
+    background: #000;
+    color: #fff;
+}
+#btn-bienvenue:hover .underline{
+    border-top: 1px solid #F2CD5D;
+    border-bottom: #F2CD5D 1px solid;
+    color: #F2CD5D;
+}
+.imageC{
+    height: 50vh;
+    width: 50vw;
+    margin: auto;
+}
+#carouselExampleControls{
+    height: 50vh;;
+}
+h1{
+    color: #555;
+    text-align: center;
+    margin: auto;
+}
+h2{
+    color: #555;
+}
+.yellow{
+    color: #F2CD5D;
+}
