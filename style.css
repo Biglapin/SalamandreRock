@@ -4,6 +4,9 @@ html{
 .space{
     height: 15vh;
 }
+.space1{
+    height: 5vh;
+}
 .white{
    color:#fff
 }
@@ -11,7 +14,12 @@ html{
     background: none;
     background-color: rgba(0, 0, 0, 1);
 }
-
+.fullContainer{
+    width: 70%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background: #000;
+}
 footer{
     padding: 0;
     margin: 0;
@@ -20,6 +28,28 @@ footer{
     height: 15vh;
     width: 100vw;
 }
+.testmargin{
+    margin-left: 15vw;
+    margin-top: 2vh;
+}
+
+
+.zoom {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+
+
+
+
 
 section{
     margin: 0;
@@ -27,11 +57,11 @@ section{
     border: none;
     height:100vh;
 }
-.container{
+/*.container{
     background: grey;
     height: 50vh;
     width: 100vw;
-}
+}*/
 .container2{
     background: lightgray;
 }
@@ -118,6 +148,15 @@ video{
     height: 50vh;
     width: 50vw;
     margin: auto;
+    background: #000;
+}
+.imageL{
+    border: #555 2px solid;
+    border-radius: 5px;
+    margin: 10px;
+    height: 15rem;
+    width: 15rem;
+    background :#000;
 }
 #carouselExampleControls{
     height: 50vh;;
