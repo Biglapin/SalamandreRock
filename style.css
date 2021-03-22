@@ -14,6 +14,7 @@ html{
     background: none;
     background-color: rgba(0, 0, 0, 1);
 }
+
 .fullContainer{
     width: 70%;
     margin-left: auto !important;
@@ -26,14 +27,27 @@ footer{
     bottom: 0;
     background: #000;
     height: 15vh;
-    width: 100vw;
+    border-top: 1px solid #555 !important;
+    margin-top: 5vh;
+}
+footer p{
+    text-align: center;
+    margin-top: 1vh;
+    color: #8f8f8f;
+}
+.footerTest{
+    text-align: center;
 }
 .testmargin{
     margin-left: 15vw;
     margin-top: 2vh;
 }
-
-
+.modal-header{
+    border-bottom: 2px solid #F2CD5D!important;
+}
+.modal-title{
+    margin: auto;
+}
 .zoom {
 	-webkit-transform: scale(1);
 	transform: scale(1);
@@ -50,6 +64,21 @@ footer{
     width: 45vw;
 }
 
+/*.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none !important;
+}
+.carousel-control-next-icon:after{
+  content: '>';
+  font-size: 55px;
+  color: #F2CD5D;
+}
+
+.carousel-control-prev-icon:after{
+  content: '<';
+  font-size: 55px;
+  color: #F2CD5D;
+}*/
 
 
 section{
@@ -99,6 +128,10 @@ iframe{
     footer{position: fixed !important;
     width: 100vw !important;
 }
+}
+
+.navbar{
+    border-bottom: 0.5px solid #555;
 }
 .nav-link:hover{
     color: #F2CD5D !important;
@@ -159,17 +192,26 @@ video{
     width: 15rem;
     background :#000;
 }
+.imageL:hover{
+    border: #F2CD5D 2px solid;
+}
 #carouselExampleControls{
     height: 50vh;;
 }
 h1{
-    color: #555;
+    color: #8f8f8f;
     text-align: center;
     margin: auto;
 }
 h2{
-    color: #555;
+    color: #8f8f8f;
+}
+h5{
+    color: #8f8f8f;
 }
 .yellow{
     color: #F2CD5D;
+}
+.grey{
+    color: #8f8f8f;
 }

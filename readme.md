@@ -9,3 +9,7 @@ idées en vrac en commun:
 - lien spotify (peut être dans le footer) (https://open.spotify.com/artist/7wx1LTeikQoPCTpx2syzVA?si=JWu3bb1sQK210RJdXKvGUw)
 - penser au vidéo
 - lien facebook
+
+
+
+solution à trouver pour le carrousel, arriver sur la bonne photo lors du clique + taille identique pour chaque image/photo. 
