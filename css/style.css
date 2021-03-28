@@ -130,26 +130,6 @@ iframe{
 }
 }
 
-.navbar{
-    border-bottom: 0.5px solid #555;
-}
-.nav-link:hover{
-    color: #F2CD5D !important;
-    background: black !important;
-    border-bottom: #F2CD5D 1px solid;
-    border-top: #F2CD5D 1px solid;
-    border-radius: 0 !important;
-}
-.nav-link.active{
-    color: #F2CD5D !important;
-    background: black !important;
-    border-bottom: #F2CD5D 1px solid;
-    border-top: #F2CD5D 1px solid;
-    border-radius: 0 !important;
-}
-.link:hover{
-    color: #fff;
-}
 video{
     width: 100%;
     height: 100%;
