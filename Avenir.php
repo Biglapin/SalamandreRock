@@ -31,8 +31,8 @@
 
   <!-- BUTTONS DATES -->
   <div class="row row-concerts">
-    <div class="col-new-concerts">
-       <div class='button'>
+    <div class="col-new-concerts col-2 ">
+       <div class='button '>
               <div class='line'></div> 
               <div class='line'></div>
               <div class='line'></div>
@@ -42,8 +42,8 @@
               <span>UPCOMING DATES</span>
         </div>
     </div>
-    <div class="col-old-concerts">
-       <div class='button'>
+    <div class="col-old-concerts  col-3">
+       <div class='button '>
            <div class='line'></div> 
            <div class='line'></div>
            <div class='line'></div>
@@ -59,31 +59,19 @@
     <!-- DATES -->
     <div class="row row-dates">
        <div class="col-2">
-           <div>FRI 2 NOV</div>
+           <div>WED 28 FEB</div>
        </div>
        <div class="col-2">
-           <div>BARBEROUSSE</div>
-           <div>PARIS, FRANCE</div>
+           <div>Ninkasi La soie</div>
+           <div>LYON, FRANCE</div>
        </div>
        <div class="col-2">
-           <button class="btn btn-primary">Facebook</button>
-           <button class="btn btn-primary">Website</button>
-       </div>
-    </div>
-
-    <hr>
-
-    <div class="row row-dates">
-       <div class="col-2">
-           <div>FRI 2 NOV</div>
-       </div>
-       <div class="col-2">
-           <div>BARBEROUSSE</div>
-           <div>PARIS, FRANCE</div>
-       </div>
-       <div class="col-2">
-           <button class="btn btn-primary">Facebook</button>
-           <button class="btn btn-primary">Website</button>
+           <button class="btn">
+                <span class="facebook-btn"></span>
+           </button>
+           <button class="btn ">
+              <span class="website-btn"></span>
+           </button>
        </div>
     </div>
 
@@ -94,12 +82,36 @@
            <div>FRI 2 NOV</div>
        </div>
        <div class="col-2">
-           <div>BARBEROUSSE</div>
-           <div>PARIS, FRANCE</div>
+           <div>Rock'n Hit</div>
+           <div>LYON, FRANCE</div>
        </div>
        <div class="col-2">
-           <button class="btn btn-primary">Facebook</button>
-           <button class="btn btn-primary">Website</button>
+           <button class="btn ">
+               <span class="facebook-btn"></span>
+           </button>
+           <button class="btn ">
+              <span class="website-btn"></span>
+           </button>
+       </div>
+    </div>
+
+    <hr>
+
+    <div class="row row-dates">
+       <div class="col-2">
+           <div>MON 11 OCT</div>
+       </div>
+       <div class="col-2">
+           <div>Fête de la musique</div>
+           <div>MANISSIEUX, FRANCE</div>
+       </div>
+       <div class="col-2">
+           <button class="btn ">
+                <span class="facebook-btn"></span>
+           </button>
+           <button class="btn ">
+              <span class="website-btn"></span>
+           </button>
        </div>
     </div>
 
@@ -107,15 +119,19 @@
     
     <div class="row row-dates">
        <div class="col-2">
-           <div>FRI 2 NOV</div>
+           <div>FRI 29 JAN</div>
        </div>
        <div class="col-2">
            <div>BARBEROUSSE</div>
-           <div>PARIS, FRANCE</div>
+           <div>MONTPELLIER, FRANCE</div>
        </div>
        <div class="col-2">
-           <button class="btn btn-primary">Facebook</button>
-           <button class="btn btn-primary">Website</button>
+           <button class="btn ">
+               <span class="facebook-btn"></span>
+           </button>
+           <button class="btn">
+              <span class="website-btn"></span>
+           </button>
        </div>
     </div>
 
