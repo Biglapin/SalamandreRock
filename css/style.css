@@ -1,5 +1,9 @@
 html{
     background:#000;
+}  
+body {
+    font-family: 'Amatic SC', cursive;
+
 }
 .space{
     height: 15vh;

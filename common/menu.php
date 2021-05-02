@@ -23,10 +23,8 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Notre Univers</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                   <li><a class="dropdown-item" href="notre_univers.php">Le jour d'après</a></li>
-                   <li><a class="dropdown-item" href="notre_univers.php">Album 2</a></li>
-                   <li><a class="dropdown-item" href="notre_univers.php">Album 3</a></li>
-                   <li><a class="dropdown-item" href="notre_univers.php">Album 4</a></li>
+                   <li><a class="dropdown-item" href="le_jour_d_apres.php">Le jour d'après</a></li>
+                   <li><a class="dropdown-item" href="en_attendant.php">En Attendant</a></li>
                 </ul>
             </li>
             <li class="nav-item"><a class="nav-link" href="#light">En lumière</a></li>
